@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.users {
+ display: flex ;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+
+h1 {
+  color :rebeccapurple
+}
+
+thead {
+  color: green;
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+
+}
+tbody {color: blue;}
+table, th, td {
+  border: 1px solid black;
+}
